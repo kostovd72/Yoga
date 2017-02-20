@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D076B881E201CBD00B45A22 /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D076B871E201CBD00B45A22 /* NetworkActivityIndicatorManager.swift */; };
+		0D076B8B1E25B49100B45A22 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D076B891E25B49100B45A22 /* FBSDKCoreKit.framework */; };
+		0D076B8C1E25B49100B45A22 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D076B8A1E25B49100B45A22 /* FBSDKLoginKit.framework */; };
+		0D0E9FBA1E198F9900F6E4CD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0E9FB91E198F9900F6E4CD /* StoreKit.framework */; };
+		0D9BBAE61E00773D004EFA7D /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BBAE51E00773D004EFA7D /* CommunityViewController.swift */; };
+		313B3FC88B209387DE5970F0 /* Pods_YogaStudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731569142B23B5335F48E7BF /* Pods_YogaStudio.framework */; };
+		54430F591DFF888400B9681C /* Login2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54430F581DFF888400B9681C /* Login2.swift */; };
+		54430F5B1DFF97B200B9681C /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 54430F5A1DFF97B200B9681C /* email.png */; };
+		54C9C6251DF98C89003853DF /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C6241DF98C89003853DF /* facebook.png */; };
+		54C9C6271DF9B091003853DF /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C6261DF9B091003853DF /* lock.png */; };
+		54C9C62A1DF9D411003853DF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9C6291DF9D411003853DF /* PaymentViewController.swift */; };
+		54C9C62D1DF9E399003853DF /* pay_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C62B1DF9E399003853DF /* pay_1.png */; };
+		54C9C62E1DF9E399003853DF /* pay_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C62C1DF9E399003853DF /* pay_2.png */; };
+		54C9C6301DF9E49F003853DF /* pay_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C62F1DF9E49F003853DF /* pay_back.png */; };
+		54C9C6321DFA1872003853DF /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C6311DFA1872003853DF /* download.png */; };
+		722C70BD1C3AAFC000866465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C70BC1C3AAFC000866465 /* AppDelegate.swift */; };
+		722C70C21C3AAFC000866465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722C70C01C3AAFC000866465 /* Main.storyboard */; };
+		722C70C41C3AAFC000866465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722C70C31C3AAFC000866465 /* Assets.xcassets */; };
+		722C70CF1C3AAFED00866465 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70CE1C3AAFED00866465 /* AudioToolbox.framework */; };
+		722C70D11C3AAFF200866465 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70D01C3AAFF200866465 /* CFNetwork.framework */; };
+		722C70D31C3AAFF600866465 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70D21C3AAFF600866465 /* CoreGraphics.framework */; };
+		722C70D51C3AAFFD00866465 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70D41C3AAFFD00866465 /* CoreLocation.framework */; };
+		722C70D71C3AB00100866465 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70D61C3AB00100866465 /* MobileCoreServices.framework */; };
+		722C70D91C3AB00500866465 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70D81C3AB00500866465 /* QuartzCore.framework */; };
+		722C70DB1C3AB00900866465 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70DA1C3AB00900866465 /* Security.framework */; };
+		722C70DF1C3AB01300866465 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722C70DE1C3AB01300866465 /* SystemConfiguration.framework */; };
+		722C70E61C3AB05400866465 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C70E51C3AB05400866465 /* Configs.swift */; };
+		722C70F01C3ABBA200866465 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C70EF1C3ABBA200866465 /* Exercises.swift */; };
+		722C70F21C3ABBC200866465 /* ExercisesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C70F11C3ABBC200866465 /* ExercisesCell.swift */; };
+		722C70F51C3ACFDF00866465 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C70F41C3ACFDF00866465 /* Categories.swift */; };
+		7238501E1C3C038300430975 /* ExercisesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7238501D1C3C038300430975 /* ExercisesDetails.swift */; };
+		723F77461C90168B006AE320 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F77451C90168B006AE320 /* AboutUs.swift */; };
+		727022C61C3E98C700B723BD /* TermsOfUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727022C51C3E98C700B723BD /* TermsOfUse.swift */; };
+		727022C81C3E9A2100B723BD /* terms.html in Resources */ = {isa = PBXBuildFile; fileRef = 727022C71C3E9A2100B723BD /* terms.html */; };
+		727022CB1C3E9F0900B723BD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727022CA1C3E9F0900B723BD /* Account.swift */; };
+		72ED08291C3E802F008491CB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED08281C3E802F008491CB /* AdSupport.framework */; };
+		72ED082B1C3E803A008491CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED082A1C3E803A008491CB /* AVFoundation.framework */; };
+		72ED082D1C3E8044008491CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED082C1C3E8044008491CB /* CoreMedia.framework */; };
+		72ED082F1C3E8049008491CB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED082E1C3E8049008491CB /* CoreTelephony.framework */; };
+		72ED08311C3E804D008491CB /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED08301C3E804D008491CB /* EventKit.framework */; };
+		72ED08331C3E8051008491CB /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED08321C3E8051008491CB /* EventKitUI.framework */; };
+		72ED08351C3E8055008491CB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ED08341C3E8055008491CB /* MessageUI.framework */; };
+		72ED083C1C3E955F008491CB /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ED083A1C3E955F008491CB /* Login.swift */; };
+		72ED083D1C3E955F008491CB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ED083B1C3E955F008491CB /* SignUp.swift */; };
+		8C74736F1CD7524B00B67065 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C74736E1CD7524B00B67065 /* libsqlite3.tbd */; };
+		8C7473711CD7525300B67065 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7473701CD7525300B67065 /* libz.tbd */; };
+		9415483D1E40FD440025951F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415483C1E40FD440025951F /* Post.swift */; };
+		94B1A36A1E400666005C7694 /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1A3691E400666005C7694 /* Topics.swift */; };
+		94B1A36C1E400682005C7694 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1A36B1E400682005C7694 /* TopicCell.swift */; };
+		94E644E31E41F17900C7DB22 /* SingleTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E644E21E41F17900C7DB22 /* SingleTopic.swift */; };
+		94E644E51E4272CE00C7DB22 /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E644E41E4272CE00C7DB22 /* Reply.swift */; };
+		9C20038F1DD39D45001078F9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20038C1DD39D45001078F9 /* Bolts.framework */; };
+		9C2003901DD39D45001078F9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20038D1DD39D45001078F9 /* Parse.framework */; };
+		9C2003911DD39D45001078F9 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20038E1DD39D45001078F9 /* ParseUI.framework */; };
+		9C2003931DD455D0001078F9 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2003921DD455D0001078F9 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D076B871E201CBD00B45A22 /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		0D076B891E25B49100B45A22 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.17.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0D076B8A1E25B49100B45A22 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.17.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0D0E9FB91E198F9900F6E4CD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0D9BBAE51E00773D004EFA7D /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		54430F581DFF888400B9681C /* Login2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login2.swift; sourceTree = "<group>"; };
+		54430F5A1DFF97B200B9681C /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		54C9C6241DF98C89003853DF /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		54C9C6261DF9B091003853DF /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		54C9C6291DF9D411003853DF /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		54C9C62B1DF9E399003853DF /* pay_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay_1.png; sourceTree = "<group>"; };
+		54C9C62C1DF9E399003853DF /* pay_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay_2.png; sourceTree = "<group>"; };
+		54C9C62F1DF9E49F003853DF /* pay_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay_back.png; sourceTree = "<group>"; };
+		54C9C6311DFA1872003853DF /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		720C28F21C68884D00EB1A9A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		722C70B91C3AAFC000866465 /* YogaStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722C70BC1C3AAFC000866465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		722C70C11C3AAFC000866465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		722C70C31C3AAFC000866465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		722C70C81C3AAFC000866465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722C70CE1C3AAFED00866465 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		722C70D01C3AAFF200866465 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		722C70D21C3AAFF600866465 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		722C70D41C3AAFFD00866465 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		722C70D61C3AB00100866465 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		722C70D81C3AB00500866465 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		722C70DA1C3AB00900866465 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		722C70DE1C3AB01300866465 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		722C70E51C3AB05400866465 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		722C70EF1C3ABBA200866465 /* Exercises.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
+		722C70F11C3ABBC200866465 /* ExercisesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesCell.swift; sourceTree = "<group>"; };
+		722C70F41C3ACFDF00866465 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		7238501D1C3C038300430975 /* ExercisesDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesDetails.swift; sourceTree = "<group>"; };
+		723F77451C90168B006AE320 /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		727022C51C3E98C700B723BD /* TermsOfUse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfUse.swift; sourceTree = "<group>"; };
+		727022C71C3E9A2100B723BD /* terms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms.html; sourceTree = "<group>"; };
+		727022CA1C3E9F0900B723BD /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		72ED08281C3E802F008491CB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		72ED082A1C3E803A008491CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72ED082C1C3E8044008491CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		72ED082E1C3E8049008491CB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		72ED08301C3E804D008491CB /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		72ED08321C3E8051008491CB /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		72ED08341C3E8055008491CB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		72ED083A1C3E955F008491CB /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		72ED083B1C3E955F008491CB /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		731569142B23B5335F48E7BF /* Pods_YogaStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C74736E1CD7524B00B67065 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8C7473701CD7525300B67065 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9415483C1E40FD440025951F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		94B1A3691E400666005C7694 /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
+		94B1A36B1E400682005C7694 /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		94E644E21E41F17900C7DB22 /* SingleTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTopic.swift; sourceTree = "<group>"; };
+		94E644E41E4272CE00C7DB22 /* Reply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		9C2003891DD39CD4001078F9 /* YogaStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YogaStudio.entitlements; sourceTree = "<group>"; };
+		9C20038C1DD39D45001078F9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = YogaStudio/Parse/Bolts.framework; sourceTree = "<group>"; };
+		9C20038D1DD39D45001078F9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = YogaStudio/Parse/Parse.framework; sourceTree = "<group>"; };
+		9C20038E1DD39D45001078F9 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = YogaStudio/Parse/ParseUI.framework; sourceTree = "<group>"; };
+		9C2003921DD455D0001078F9 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = YogaStudio/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		A71BBA1D15A8509ECD3680FD /* Pods-YogaStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaStudio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YogaStudio/Pods-YogaStudio.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD6CD8612548E8BB14CECDF /* Pods-YogaStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaStudio.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaStudio/Pods-YogaStudio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722C70B61C3AAFC000866465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7473711CD7525300B67065 /* libz.tbd in Frameworks */,
+				8C74736F1CD7524B00B67065 /* libsqlite3.tbd in Frameworks */,
+				722C70D91C3AB00500866465 /* QuartzCore.framework in Frameworks */,
+				9C2003911DD39D45001078F9 /* ParseUI.framework in Frameworks */,
+				72ED08351C3E8055008491CB /* MessageUI.framework in Frameworks */,
+				72ED08331C3E8051008491CB /* EventKitUI.framework in Frameworks */,
+				72ED08311C3E804D008491CB /* EventKit.framework in Frameworks */,
+				0D076B8C1E25B49100B45A22 /* FBSDKLoginKit.framework in Frameworks */,
+				72ED082F1C3E8049008491CB /* CoreTelephony.framework in Frameworks */,
+				72ED082D1C3E8044008491CB /* CoreMedia.framework in Frameworks */,
+				72ED082B1C3E803A008491CB /* AVFoundation.framework in Frameworks */,
+				722C70CF1C3AAFED00866465 /* AudioToolbox.framework in Frameworks */,
+				72ED08291C3E802F008491CB /* AdSupport.framework in Frameworks */,
+				0D0E9FBA1E198F9900F6E4CD /* StoreKit.framework in Frameworks */,
+				0D076B8B1E25B49100B45A22 /* FBSDKCoreKit.framework in Frameworks */,
+				722C70DF1C3AB01300866465 /* SystemConfiguration.framework in Frameworks */,
+				9C2003931DD455D0001078F9 /* GoogleMobileAds.framework in Frameworks */,
+				9C2003901DD39D45001078F9 /* Parse.framework in Frameworks */,
+				722C70DB1C3AB00900866465 /* Security.framework in Frameworks */,
+				722C70D71C3AB00100866465 /* MobileCoreServices.framework in Frameworks */,
+				722C70D51C3AAFFD00866465 /* CoreLocation.framework in Frameworks */,
+				9C20038F1DD39D45001078F9 /* Bolts.framework in Frameworks */,
+				722C70D31C3AAFF600866465 /* CoreGraphics.framework in Frameworks */,
+				722C70D11C3AAFF200866465 /* CFNetwork.framework in Frameworks */,
+				313B3FC88B209387DE5970F0 /* Pods_YogaStudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9BBAE21E0076AB004EFA7D /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBAE51E00773D004EFA7D /* CommunityViewController.swift */,
+				94B1A3691E400666005C7694 /* Topics.swift */,
+				94B1A36B1E400682005C7694 /* TopicCell.swift */,
+				94E644E21E41F17900C7DB22 /* SingleTopic.swift */,
+				9415483C1E40FD440025951F /* Post.swift */,
+				94E644E41E4272CE00C7DB22 /* Reply.swift */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		54C9C6281DF9D3D1003853DF /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				54C9C6291DF9D411003853DF /* PaymentViewController.swift */,
+			);
+			name = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		72295A221C40038A009502DA /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				727022CA1C3E9F0900B723BD /* Account.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		722C70B01C3AAFC000866465 = {
+			isa = PBXGroup;
+			children = (
+				722C70BB1C3AAFC000866465 /* YogaStudio */,
+				722C70E41C3AB02300866465 /* Frameworks */,
+				722C70BA1C3AAFC000866465 /* Products */,
+				DA27521671BBB0B528E441D7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		722C70BA1C3AAFC000866465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				722C70B91C3AAFC000866465 /* YogaStudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		722C70BB1C3AAFC000866465 /* YogaStudio */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BBAE21E0076AB004EFA7D /* Community */,
+				54C9C6281DF9D3D1003853DF /* InAppPurchase */,
+				9C2003891DD39CD4001078F9 /* YogaStudio.entitlements */,
+				722C70BC1C3AAFC000866465 /* AppDelegate.swift */,
+				722C70E51C3AB05400866465 /* Configs.swift */,
+				722C70C01C3AAFC000866465 /* Main.storyboard */,
+				72ED083E1C3E9562008491CB /* Login-SignUp */,
+				723F77471C90213F006AE320 /* Exercises */,
+				722C70F41C3ACFDF00866465 /* Categories.swift */,
+				723F77451C90168B006AE320 /* AboutUs.swift */,
+				54C9C6261DF9B091003853DF /* lock.png */,
+				54430F5A1DFF97B200B9681C /* email.png */,
+				54C9C6241DF98C89003853DF /* facebook.png */,
+				54C9C62B1DF9E399003853DF /* pay_1.png */,
+				54C9C62C1DF9E399003853DF /* pay_2.png */,
+				54C9C62F1DF9E49F003853DF /* pay_back.png */,
+				54C9C6311DFA1872003853DF /* download.png */,
+				72295A221C40038A009502DA /* Account */,
+				722C70C31C3AAFC000866465 /* Assets.xcassets */,
+				722C70C81C3AAFC000866465 /* Info.plist */,
+				0D076B871E201CBD00B45A22 /* NetworkActivityIndicatorManager.swift */,
+			);
+			path = YogaStudio;
+			sourceTree = "<group>";
+		};
+		722C70E41C3AB02300866465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D076B891E25B49100B45A22 /* FBSDKCoreKit.framework */,
+				0D076B8A1E25B49100B45A22 /* FBSDKLoginKit.framework */,
+				0D0E9FB91E198F9900F6E4CD /* StoreKit.framework */,
+				8C7473701CD7525300B67065 /* libz.tbd */,
+				8C74736E1CD7524B00B67065 /* libsqlite3.tbd */,
+				9C2003921DD455D0001078F9 /* GoogleMobileAds.framework */,
+				9C20038C1DD39D45001078F9 /* Bolts.framework */,
+				9C20038D1DD39D45001078F9 /* Parse.framework */,
+				9C20038E1DD39D45001078F9 /* ParseUI.framework */,
+				720C28F21C68884D00EB1A9A /* CloudKit.framework */,
+				72ED08341C3E8055008491CB /* MessageUI.framework */,
+				72ED08321C3E8051008491CB /* EventKitUI.framework */,
+				72ED08301C3E804D008491CB /* EventKit.framework */,
+				72ED082E1C3E8049008491CB /* CoreTelephony.framework */,
+				72ED082C1C3E8044008491CB /* CoreMedia.framework */,
+				72ED082A1C3E803A008491CB /* AVFoundation.framework */,
+				72ED08281C3E802F008491CB /* AdSupport.framework */,
+				722C70DE1C3AB01300866465 /* SystemConfiguration.framework */,
+				722C70DA1C3AB00900866465 /* Security.framework */,
+				722C70D81C3AB00500866465 /* QuartzCore.framework */,
+				722C70D61C3AB00100866465 /* MobileCoreServices.framework */,
+				722C70D41C3AAFFD00866465 /* CoreLocation.framework */,
+				722C70D21C3AAFF600866465 /* CoreGraphics.framework */,
+				722C70D01C3AAFF200866465 /* CFNetwork.framework */,
+				722C70CE1C3AAFED00866465 /* AudioToolbox.framework */,
+				731569142B23B5335F48E7BF /* Pods_YogaStudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723F77471C90213F006AE320 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				722C70EF1C3ABBA200866465 /* Exercises.swift */,
+				722C70F11C3ABBC200866465 /* ExercisesCell.swift */,
+				7238501D1C3C038300430975 /* ExercisesDetails.swift */,
+			);
+			name = Exercises;
+			sourceTree = "<group>";
+		};
+		72ED083E1C3E9562008491CB /* Login-SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				72ED083A1C3E955F008491CB /* Login.swift */,
+				54430F581DFF888400B9681C /* Login2.swift */,
+				72ED083B1C3E955F008491CB /* SignUp.swift */,
+				727022C51C3E98C700B723BD /* TermsOfUse.swift */,
+				727022C71C3E9A2100B723BD /* terms.html */,
+			);
+			name = "Login-SignUp";
+			sourceTree = "<group>";
+		};
+		DA27521671BBB0B528E441D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71BBA1D15A8509ECD3680FD /* Pods-YogaStudio.debug.xcconfig */,
+				FAD6CD8612548E8BB14CECDF /* Pods-YogaStudio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722C70B81C3AAFC000866465 /* YogaStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722C70CB1C3AAFC000866465 /* Build configuration list for PBXNativeTarget "YogaStudio" */;
+			buildPhases = (
+				E9617CE844A42C820D5A4E71 /* [CP] Check Pods Manifest.lock */,
+				722C70B51C3AAFC000866465 /* Sources */,
+				722C70B61C3AAFC000866465 /* Frameworks */,
+				722C70B71C3AAFC000866465 /* Resources */,
+				C3D1325C2F85DFA7B926FA4E /* [CP] Embed Pods Frameworks */,
+				7EDA073A3A1E3611ACD1825C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaStudio;
+			productName = Recipes;
+			productReference = 722C70B91C3AAFC000866465 /* YogaStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722C70B11C3AAFC000866465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GF;
+				TargetAttributes = {
+					722C70B81C3AAFC000866465 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 722C70B41C3AAFC000866465 /* Build configuration list for PBXProject "YogaStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722C70B01C3AAFC000866465;
+			productRefGroup = 722C70BA1C3AAFC000866465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722C70B81C3AAFC000866465 /* YogaStudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722C70B71C3AAFC000866465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C70C41C3AAFC000866465 /* Assets.xcassets in Resources */,
+				54C9C6301DF9E49F003853DF /* pay_back.png in Resources */,
+				54C9C6271DF9B091003853DF /* lock.png in Resources */,
+				54C9C62E1DF9E399003853DF /* pay_2.png in Resources */,
+				54C9C62D1DF9E399003853DF /* pay_1.png in Resources */,
+				54C9C6321DFA1872003853DF /* download.png in Resources */,
+				54C9C6251DF98C89003853DF /* facebook.png in Resources */,
+				722C70C21C3AAFC000866465 /* Main.storyboard in Resources */,
+				54430F5B1DFF97B200B9681C /* email.png in Resources */,
+				727022C81C3E9A2100B723BD /* terms.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EDA073A3A1E3611ACD1825C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaStudio/Pods-YogaStudio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D1325C2F85DFA7B926FA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaStudio/Pods-YogaStudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9617CE844A42C820D5A4E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722C70B51C3AAFC000866465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727022CB1C3E9F0900B723BD /* Account.swift in Sources */,
+				94E644E31E41F17900C7DB22 /* SingleTopic.swift in Sources */,
+				9415483D1E40FD440025951F /* Post.swift in Sources */,
+				7238501E1C3C038300430975 /* ExercisesDetails.swift in Sources */,
+				727022C61C3E98C700B723BD /* TermsOfUse.swift in Sources */,
+				722C70BD1C3AAFC000866465 /* AppDelegate.swift in Sources */,
+				94E644E51E4272CE00C7DB22 /* Reply.swift in Sources */,
+				722C70F01C3ABBA200866465 /* Exercises.swift in Sources */,
+				94B1A36C1E400682005C7694 /* TopicCell.swift in Sources */,
+				722C70F51C3ACFDF00866465 /* Categories.swift in Sources */,
+				722C70E61C3AB05400866465 /* Configs.swift in Sources */,
+				54C9C62A1DF9D411003853DF /* PaymentViewController.swift in Sources */,
+				0D9BBAE61E00773D004EFA7D /* CommunityViewController.swift in Sources */,
+				722C70F21C3ABBC200866465 /* ExercisesCell.swift in Sources */,
+				72ED083D1C3E955F008491CB /* SignUp.swift in Sources */,
+				723F77461C90168B006AE320 /* AboutUs.swift in Sources */,
+				54430F591DFF888400B9681C /* Login2.swift in Sources */,
+				72ED083C1C3E955F008491CB /* Login.swift in Sources */,
+				0D076B881E201CBD00B45A22 /* NetworkActivityIndicatorManager.swift in Sources */,
+				94B1A36A1E400666005C7694 /* Topics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		722C70C01C3AAFC000866465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722C70C11C3AAFC000866465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722C70C91C3AAFC000866465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/sayoojvalsan/Downloads/FacebookSDKs-iOS-4.17.0";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722C70CA1C3AAFC000866465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/sayoojvalsan/Downloads/FacebookSDKs-iOS-4.17.0";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722C70CC1C3AAFC000866465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71BBA1D15A8509ECD3680FD /* Pods-YogaStudio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YogaStudio/YogaStudio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YogaStudio",
+					"$(PROJECT_DIR)/YogaStudio/Parse",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/YogaStudio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomind.yogaweightloss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722C70CD1C3AAFC000866465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD6CD8612548E8BB14CECDF /* Pods-YogaStudio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YogaStudio/YogaStudio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YogaStudio",
+					"$(PROJECT_DIR)/YogaStudio/Parse",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/YogaStudio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomind.yogaweightloss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722C70B41C3AAFC000866465 /* Build configuration list for PBXProject "YogaStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C70C91C3AAFC000866465 /* Debug */,
+				722C70CA1C3AAFC000866465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722C70CB1C3AAFC000866465 /* Build configuration list for PBXNativeTarget "YogaStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722C70CC1C3AAFC000866465 /* Debug */,
+				722C70CD1C3AAFC000866465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722C70B11C3AAFC000866465 /* Project object */;
+}

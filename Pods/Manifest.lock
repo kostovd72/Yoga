@@ -1,0 +1,45 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.17.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.17.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.18.0):
+    - FBSDKCoreKit
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - SwiftyStoreKit (0.6.1)
+  - UICircularProgressRing (1.1.7)
+
+DEPENDENCIES:
+  - FBSDKCoreKit (= 4.17.0)
+  - FBSDKLoginKit (= 4.17.0)
+  - FBSDKShareKit
+  - ParseFacebookUtilsV4
+  - SwiftyStoreKit
+  - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
+  FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
+  FBSDKShareKit: 0b8d6cc3f103c75297eb3c62caec284a2ccf1b9e
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  SwiftyStoreKit: 956408606f43ec3df3386b56e65615bb19bee85e
+  UICircularProgressRing: aa42aecd035658bd7212fab6e2feabc8dcc72fae
+
+PODFILE CHECKSUM: ef7bfc43ef3cea4b0f0b6cbea5f2f27bd902f59e
+
+COCOAPODS: 1.1.1
